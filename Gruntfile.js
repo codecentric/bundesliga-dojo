@@ -35,7 +35,8 @@ module.exports = function(grunt) {
         src: ['<%= basepath.app %>/bower_components/angular/angular.js',
           '<%= basepath.app %>/bower_components/angular-resource/angular-resource.js',
           '<%= basepath.app %>/bower_components/angular-mocks/angular-mocks.js',
-          '<%= basepath.app %>/app/hello.js'
+          '<%= basepath.app %>/controllers/bundesliga-table.js',
+          '<%= basepath.app %>/app/app.js'
         ],
         options: {
           specs: 'src/test/jasmine/spec/*.js',

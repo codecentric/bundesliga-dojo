@@ -1,25 +1,49 @@
 <!doctype html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Bundesliga-Tabelle</title>
     <link rel="stylesheet" href="./bower_components/bootstrap-css-only/css/bootstrap.min.css"/>
     <style type="text/css">
         [ng\:cloak], [ng-cloak], .ng-cloak {
             display: none !important;
         }
+        table {
+            min-width:400px;
+        }
     </style>
 </head>
 
-<body ng-app="hello">
+<body ng-app="bundesliga-dojo">
 <div class="container">
-    <h1>Greeting</h1>
-    <div ng-controller="HelloController" ng-cloak class="ng-cloak">
-        <p>The ID is {{greeting.id}}</p>
-        <p>The content is {{greeting.content}}</p>
+
+    <div ng-controller="BundesligaTableController" ng-cloak class="ng-cloak">
+        <h1>Bundesliga-Tabelle</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Platz</th>
+                    <th>Mannschaft</th>
+                    <th>Tore</th>
+                    <th>Diff.</th>
+                    <th>Punkte</th></tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="team in standings">
+                <td>{{$index + 1}}</td>
+                <td>
+                    {{team.name}}
+                </td>
+                <td>{{team.scored}}:{{team.allowed}}</td>
+                <td>{{team.difference}}</td>
+                <td>{{team.points}}</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
 <script type="text/javascript" src="./bower_components/angular-resource/angular-resource.js"></script>
-<script type="text/javascript" src="./app/hello.js"></script>
+<script type="text/javascript" src="./controllers/bundesliga-table.js"></script>
+<script type="text/javascript" src="./app/app.js"></script>
 </body>
 </html>
