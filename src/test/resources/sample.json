@@ -1,0 +1,109 @@
+{
+  "MatchID":33236,
+  "MatchDateTime":"2015-08-14T20:30:00",
+  "TimeZoneID":"W. Europe Standard Time",
+  "MatchDateTimeUTC":"2015-08-14T18:30:00Z",
+  "Team1":
+  {
+    "TeamId":40,
+    "TeamName":"Bayern München",
+    "TeamIconUrl":"http://www.openligadb.de/images/teamicons/Bayern_Muenchen.gif"
+  },
+  "Team2":
+  {
+    "TeamId":100,
+    "TeamName":"Hamburger SV",
+    "TeamIconUrl":"http://www.openligadb.de/images/teamicons/Hamburger_SV.gif"
+  },
+  "LastUpdateDateTime":"2015-08-20T23:41:11.807",
+  "MatchIsFinished":true,
+  "MatchResults":
+  [
+    {
+      "ResultID":55256,
+      "ResultName":"Halbzeitergebnis",
+      "PointsTeam1":1,
+      "PointsTeam2":0,
+      "ResultOrderID":1,
+      "ResultDescription":"Ergebnis zur Halbzeit"
+    },
+    {
+      "ResultID":55257,
+      "ResultName":"Endergebnis",
+      "PointsTeam1":5,
+      "PointsTeam2":0,
+      "ResultOrderID":2,
+      "ResultDescription":"Ergebnis nach Spielende"
+    }
+  ],
+  "Goals":
+  [
+    {
+      "GoalID":39764,
+      "ScoreTeam1":1,
+      "ScoreTeam2":0,
+      "MatchMinute":27,
+      "GoalGetterID":15317,
+      "GoalGetterName":"Benatia, Medhi",
+      "IsPenalty":false,
+      "IsOwnGoal":false,
+      "IsOvertime":false,
+      "Comment":""
+    },
+    {
+      "GoalID":39766,
+      "ScoreTeam1":2,
+      "ScoreTeam2":0,
+      "MatchMinute":53,
+      "GoalGetterID":15316,
+      "GoalGetterName":"Lewandowski, Robert",
+      "IsPenalty":false,
+      "IsOwnGoal":false,
+      "IsOvertime":false,
+      "Comment":""
+    },
+    {
+      "GoalID":39767,
+      "ScoreTeam1":3,
+      "ScoreTeam2":0,
+      "MatchMinute":69,
+      "GoalGetterID":11384,
+      "GoalGetterName":"Müller, Thomas",
+      "IsPenalty":false,
+      "IsOwnGoal":false,
+      "IsOvertime":false,
+      "Comment":""
+    },
+    {
+      "GoalID":39768,
+      "ScoreTeam1":4,
+      "ScoreTeam2":0,
+      "MatchMinute":73,
+      "GoalGetterID":11384,
+      "GoalGetterName":"Müller, Thomas",
+      "IsPenalty":false,
+      "IsOwnGoal":false,
+      "IsOvertime":false,
+      "Comment":""
+    },
+    {
+      "GoalID":39769,
+      "ScoreTeam1":5,
+      "ScoreTeam2":0,
+      "MatchMinute":87,
+      "GoalGetterID":15315,
+      "GoalGetterName":"Costa, Douglas",
+      "IsPenalty":false,
+      "IsOwnGoal":false,
+      "IsOvertime":false,
+      "Comment":""
+    }
+  ],
+  "Location":
+  {
+    "LocationID":178,
+    "LocationCity":"München",
+    "LocationStadium":"Allianz-Arena"
+  },
+  "NumberOfViewers":null
+}
